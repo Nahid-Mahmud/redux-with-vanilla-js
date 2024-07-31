@@ -42,6 +42,10 @@ const render = () => {
 
 store.subscribe(render);
 
+// update ui initally
+
+render();
+
 // button listeners
 
 incrementButton.addEventListener("click", () => {
